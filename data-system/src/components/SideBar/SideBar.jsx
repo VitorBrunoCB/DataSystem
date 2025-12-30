@@ -25,7 +25,7 @@ export default function SideBar() {
       icon: <FiCoffee />,
       path: "/cardapio",
       submenu: [
-        { label: "Pedidos", path: "/cardapio/pedidos" },
+        { label: "Pedidos", path: "/pedidos" },
         { label: "Avaliações", path: "/cardapio/avaliacoes" },
       ],
     },
