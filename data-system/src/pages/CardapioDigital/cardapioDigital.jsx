@@ -184,7 +184,7 @@ export default function CardapioDigital() {
       {/* PRODUTOS + PAGINAÇÃO */}
       <div className="relative pb-16">
         {viewMode === "cardsMin" ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-2">
             {produtosPaginados.map((prod, index) => (
               <div key={index} onClick={() => setSelectedProduct(prod)}>
                 <CardMin title={prod.title} subtitle={prod.subtitle} price={prod.price} />
