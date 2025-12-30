@@ -277,6 +277,7 @@ export default function Faturamento() {
               </PieChart>
             </ResponsiveContainer>
           </div>
+          
 
           {/* Tabela de contas */}
           <div className="bg-white rounded-2xl shadow-md p-6">
